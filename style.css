@@ -1,0 +1,142 @@
+/* header nav responsivness start */
+.logo img {
+  width: 200px;
+  height: 100px;
+}
+@media only screen and (max-width: 800px) {
+  .logo img {
+    width: 200px;
+    height: 200px;
+  }
+  .logo {
+    margin: 0 auto;
+  }
+  .content .timing {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .logo img {
+    width: 200px;
+    height: 200px;
+  }
+  .logo {
+    margin: 0 auto;
+  }
+  .content .address {
+    display: none !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .logo img {
+    width: 200px;
+    height: 200px;
+  }
+  .logo {
+    margin: 0 auto;
+  }
+  .content {
+    display: none;
+  }
+}
+
+/* header nav responsivness end */
+/* hero card start */
+.heroCard {
+  height: 500px;
+  width: auto;
+  background-image: url("./assets/herocard/hero-card.jpg");
+  background-size: cover;
+}
+/* hero card end */
+
+/* body center start */
+.center-image img {
+  width: 600px;
+  height: 500px;
+  border-radius: 10px;
+}
+/* body center end */
+@media only screen and (max-width: 600px) {
+  .center-image img {
+    width: 350px;
+    height: 300px;
+    border-radius: 20px;
+    /* box-shadow: 0 0 8px 0px black; */
+  }
+}
+
+/* center cardimages start */
+.center-card-images img {
+  width: 600px;
+  height: 350px;
+}
+.center-card-images-1 img {
+  width: 300px;
+  height: 280px;
+}
+/* center cardimages end */
+@media only screen and (max-width: 800px) {
+  .center-card-images img {
+    width: 500px;
+    height: 350px;
+  }
+  .center-card-images-1 img {
+    width: 300px;
+    height: 280px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .center-card-images img {
+    width: 500px;
+    height: 350px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .center-card-images img {
+    width: 500px;
+    height: 350px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .center-card-images img {
+    width: 300px;
+    height: 350px;
+  }
+  .center-card-images-1 img {
+    width: 300px;
+    height: 280px;
+  }
+}
+
+/* .cntro {
+  width: 300px;
+}
+.main-centro {
+  width: 600px;
+} */
+.imagestandee {
+  width: 600px;
+  height: 1000px;
+}
+/* for js */
+
+.scrolFixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  transform: translateY(70%);
+}
+
+.visible {
+  display: block;
+  position: absolute;
+  top: 300px;
+  left: 500px;
+}
+.loginForm {
+  display: none;
+}
